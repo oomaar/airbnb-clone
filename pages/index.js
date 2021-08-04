@@ -1,4 +1,5 @@
-import { Banner, HeadTag, Header } from "../Components";
+import { Banner, HeadTag, Header, Explore } from "../Components";
+import airbnbData from "../data/airbnbData.json";
 
 export default function Home() {
   return (
@@ -7,17 +8,9 @@ export default function Home() {
 
       <Header />
       <Banner />
-      <h1>Test Scroll</h1>
-      <h1>Test Scroll</h1>
-      <h1>Test Scroll</h1>
-      <h1>Test Scroll</h1>
-      <h1>Test Scroll</h1>
-      <h1>Test Scroll</h1>
-      <h1>Test Scroll</h1>
-      <h1>Test Scroll</h1>
-      <h1>Test Scroll</h1>
-      <h1>Test Scroll</h1>
-      <h1>Test Scroll</h1>
+      <main className="max-w-screen-2xl mx-auto">
+        <Explore data={airbnbData.explore} />
+      </main>
     </div>
   )
 }

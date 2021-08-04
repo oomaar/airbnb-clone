@@ -1,0 +1,52 @@
+{
+  "explore": [
+    {
+      "id": 1,
+      "city": "Hurghada",
+      "src": "/explore/hurgada.jpg",
+      "drive": "5.5 hour"
+    },
+    {
+      "id": 2,
+      "city": "Giza",
+      "src": "/explore/giza.png",
+      "drive": "15 minute"
+    },
+    {
+      "id": 3,
+      "city": "Dahab",
+      "src": "/explore/dahab.jpg",
+      "drive": "7 hour"
+    },
+    {
+      "id": 4,
+      "city": "New Cairo City",
+      "src": "/explore/newcairo.png",
+      "drive": "30 minute"
+    },
+    {
+      "id": 5,
+      "city": "Sharm El-Sheikh",
+      "src": "/explore/sharm.jpg",
+      "drive": "6.5 hour"
+    },
+    {
+      "id": 6,
+      "city": "6th of October City",
+      "src": "/explore/6october.png",
+      "drive": "45 minute"
+    },
+    {
+      "id": 7,
+      "city": "Marina El Alamein",
+      "src": "/explore/marina.jpg",
+      "drive": "3.5 hour"
+    },
+    {
+      "id": 8,
+      "city": "Madinaty",
+      "src": "/explore/madinaty.png",
+      "drive": "30 minute"
+    }
+  ]
+}

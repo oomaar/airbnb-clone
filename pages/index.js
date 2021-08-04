@@ -1,4 +1,4 @@
-import { Banner, HeadTag, Header, Explore, Travel, Anywhere } from "../Components";
+import { Banner, HeadTag, Header, Explore, Travel, Anywhere, Discover } from "../Components";
 import airbnbData from "../data/airbnbData.json";
 
 export default function Home() {
@@ -12,6 +12,7 @@ export default function Home() {
         <Explore data={airbnbData.explore} />
         <Travel />
         <Anywhere data={airbnbData.anywhere} />
+        <Discover data={airbnbData.discover} />
         <Explore data={airbnbData.explore} />
       </main>
     </div>

@@ -65,5 +65,25 @@
       "src": "/anywhere/entirehomes.jpg",
       "text": "Entire Homes"
     }
+  ],
+  "discover": [
+    {
+      "id": 1,
+      "src": "/discover/experiences.jpg",
+      "text": "Experiences",
+      "subText": "Local things to do, wherever you are."
+    },
+    {
+      "id": 2,
+      "src": "/discover/onlineexperiences.jpg",
+      "text": "Online Experiences",
+      "subText": "Live, interactive activities led by Hosts."
+    },
+    {
+      "id": 3,
+      "src": "/discover/wanderlust.jpg",
+      "text": "Featured collection: Wanderlust",
+      "subText": "Travel from home with online Experiences."
+    }
   ]
 }

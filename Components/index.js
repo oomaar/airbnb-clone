@@ -4,3 +4,4 @@ export { Header } from "./Header/Header";
 export { Explore } from "./Explore/Explore";
 export { Travel } from "./Travel/Travel";
 export { Anywhere } from "./Anywhere/Anywhere";
+export { Discover } from "./Discover/Discover";

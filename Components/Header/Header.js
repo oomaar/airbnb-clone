@@ -23,10 +23,10 @@ export const Header = () => {
             {/* Mobile screens Header */}
             <header>
                 {/* Top Header */}
-                <nav className={`fixed right-0 left-0 flex justify-center p-10 cursor-pointer md:hidden 
-                    z-50 ${show && 'bg-white'}`}>
-                    <div className={`flex items-center justify-center bg-white px-10 py-4 rounded-3xl w-full
-                        ${show && "shadow-2xl"}`}>
+                <nav className={`fixed right-0 left-0 flex justify-center px-4 pt-4 cursor-pointer md:hidden 
+                    z-50 transition duration-200 ${show && 'bg-white pt-0'}`}>
+                    <div className={`flex items-center justify-center bg-white px-10 py-2 rounded-3xl w-full
+                        transition duration-200 ${show && "shadow-2xl"}`}>
                         <SearchIcon className="h-10 text-red-400" />
                         <p className="text-black">Where are you going?</p>
                     </div>
@@ -34,10 +34,19 @@ export const Header = () => {
 
                 {/* bottom header */}
                 <div className="fixed bottom-0 left-0 right-0 flex justify-center bg-white text-gray-400
-                    p-4 md:hidden z-50">
-                    <SearchIcon className="h-8 mx-5 cursor-pointer" />
-                    <HeartIcon className="h-8 mx-5 cursor-pointer" />
-                    <UserCircleIcon className="h-8 mx-5 cursor-pointer" />
+                    px-4 py-2 md:hidden z-50 text-center">
+                    <div>
+                        <SearchIcon className="h-8 mx-5 cursor-pointer" />
+                        <p className="text-sm">Explore</p>
+                    </div>
+                    <div>
+                        <HeartIcon className="h-8 mx-5 cursor-pointer" />
+                        <p className="text-sm">Wishlist</p>
+                    </div>
+                    <div>
+                        <UserCircleIcon className="h-8 mx-5 cursor-pointer" />
+                        <p className="text-sm">Log in</p>
+                    </div>
                 </div>
             </header>
 
@@ -88,8 +97,8 @@ export const Header = () => {
                         </div>
                         <div className={`flex bg-white rounded-full text-gray-500 px-4 py-2
                             ${show && 'border-2 hover:bg-gray-200'}`}>
-                            <MenuIcon className="h-6 cursor-pointer" />
-                            <UserCircleIcon className="h-6 cursor-pointer" />
+                            <MenuIcon className="h-6 cursor-pointer mx-2" />
+                            <UserCircleIcon className="h-6 cursor-pointer mx-2" />
                         </div>
                     </div>
                 </nav>

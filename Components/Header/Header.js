@@ -23,16 +23,18 @@ export const Header = () => {
             {/* Mobile screens Header */}
             <header>
                 {/* Top Header */}
-                <nav className="fixed right-0 left-0 flex justify-center p-10 cursor-pointer md:hidden">
-                    <div className="flex items-center justify-center bg-white px-10 py-4 rounded-3xl w-full z-50">
+                <nav className={`fixed right-0 left-0 flex justify-center p-10 cursor-pointer md:hidden 
+                    z-50 ${show && 'bg-white'}`}>
+                    <div className={`flex items-center justify-center bg-white px-10 py-4 rounded-3xl w-full
+                        ${show && "shadow-2xl"}`}>
                         <SearchIcon className="h-10 text-red-400" />
                         <p className="text-black">Where are you going?</p>
                     </div>
                 </nav>
 
                 {/* bottom header */}
-                <div className="fixed bottom-0 left-0 right-0 z-50 flex justify-center bg-white text-gray-400
-                p-4 md:hidden">
+                <div className="fixed bottom-0 left-0 right-0 flex justify-center bg-white text-gray-400
+                    p-4 md:hidden z-50">
                     <SearchIcon className="h-8 mx-5 cursor-pointer" />
                     <HeartIcon className="h-8 mx-5 cursor-pointer" />
                     <UserCircleIcon className="h-8 mx-5 cursor-pointer" />

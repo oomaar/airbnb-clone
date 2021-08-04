@@ -7,7 +7,7 @@ export const Travel = () => {
                     className="w-full rounded-xl"
                 />
             </div>
-            <div className="absolute top-5 sm:top-1/3 left-10 w-full sm:w-1/3 flex sm:flex-col items-center">
+            <div className="absolute top-5 sm:top-1/3 left-10 w-4/5 sm:w-1/3 flex sm:flex-col items-center">
                 <h3 className="text-lg sm:text-2xl md:text-4xl w-1/4 sm:w-full mr-8 sm:mr-0 xl:text-6xl 
                     text-black font-bold">
                     Not sure where to go? Perfect.

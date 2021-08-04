@@ -48,5 +48,22 @@
       "src": "/explore/madinaty.png",
       "drive": "30 minute"
     }
+  ],
+  "anywhere": [
+    {
+      "id": 1,
+      "src": "/anywhere/outdoor.jpg",
+      "text": "Outdoor getaways"
+    },
+    {
+      "id": 2,
+      "src": "/anywhere/uniquestays.jpg",
+      "text": "Unique Stays"
+    },
+    {
+      "id": 3,
+      "src": "/anywhere/entirehomes.jpg",
+      "text": "Entire Homes"
+    }
   ]
 }
